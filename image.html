@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<!--[if lt IE 10]>
+<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<meta name="description" content="User Interface design collaboration and annotation">
+<title>OhApollo</title>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="bootstrap.css">
+
+<link rel="stylesheet" href="style.css">
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+	<div class="container-fluid height100">
+		<div class="row height100">
+			<div class="col-sm-8">
+				<div class="image">
+					<img class="img-responsive" src="img/image.jpg">
+						<div class="indicator" style="position: absolute; left: 80px; top: 80px;">2</div><!-- indicator -->
+						<div class="indicator unselected" style="position: absolute; left: 350px; top: 150px;">1</div><!-- indicator -->
+				</div><!-- image -->
+			</div><!-- col-sm-8 -->
+
+		
+
+			<div class="col-sm-4 height100">
+				<div class="comments overflow">
+
+					<div class="top-bar">
+						<div class="logo">
+							<img style="margin-top: -4px;" src="img/logo.svg">
+						</div><!-- top-bar logo -->
+						<div class="image-name">
+							<h1>Image_name.jpg</h1>
+						</div>
+						<div class="actions">
+							<button><a href="#" aria-label="share">Share</a></button>
+							<button><a href="#" aria-label="close"><img src="img/x.svg"></a></button>
+						</div><!-- top-bar actions -->
+					</div><!-- top-bar -->
+
+					<div class="comment">
+						<div class="indicator">2</div><!-- indicator -->
+						<div class="commenter">John Doe</div><!-- commenter -->
+						<div class="mark-resolved">Mark Resolved <input type="checkbox" name="resolve" value="resolved"></div><!-- mark-resolved -->
+						<div class="copy">
+							<p>This looks really good. Have you tried any other color choices? I have a feeling that yellow in the nav bar might brighten up this interface and put a smile on everyone’s face.</p>
+						</div><!-- copy -->
+						<div class="replier">Sally Doe</div><!-- replier -->
+						<div class="copy">
+							<p>I tried this and concluded it is risky. We could take a stand and do it though.</p>
+						</div><!-- copy -->
+						<form class="reply">
+  							<textarea class="form-control" placeholder="Reply"></textarea>
+						</form><!-- reply -->
+					</div><!-- Comment -->
+
+					<div class="comment unselected">
+						<div class="indicator">1</div><!-- indicator -->
+						<div class="commenter">John Doe</div><!-- commenter -->
+						<div class="mark-resolved">Mark Resolved <input type="checkbox" name="resolve" value="resolved"></div><!-- mark-resolved -->
+						<div class="copy">
+							<p>Also, have you thought of what the nav bar looks like at lower break-points? I really liked the last app you created that had the all icon nav. Maybe that style can be used on mobile.</p>
+						</div><!-- copy -->
+						<form class="reply">
+  							<textarea class="form-control" placeholder="Reply"></textarea>
+						</form><!-- reply -->
+					</div><!-- Comment unselected -->
+
+				</div><!-- comments -->
+			</div><!-- col-sm-4 -->
+			
+		</div><!-- row -->
+	</div><!-- container-fluid -->
+</body>
+</html>

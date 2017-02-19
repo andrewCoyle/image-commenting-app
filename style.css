@@ -1,0 +1,193 @@
+html{
+	height: 100%;
+}
+
+body{
+	background: #F6F6F6;
+	height: 100%;
+	font-family: 'Lato', sans-serif;
+	color: #515151;
+	font-weight: 400;
+	height: 100%
+}
+
+
+
+button{
+	border-radius: 4px;
+	background: #fff;
+	border:1px solid #E2E2E2;
+	padding: 5px 10px;
+}
+
+button:hover {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+}
+
+p{
+	margin: 0;
+	padding: 0;
+	line-height: 24px;
+}
+
+
+.height100{
+	height: 100%;
+}
+
+.overflow{
+	overflow: auto;
+}
+
+
+.image{
+	padding: 15px;
+}
+
+.comments{
+	background: #fff;
+	height: 100%;
+	padding: 15px 20px 30px 20px;
+	height: 100%;
+}
+
+.top-bar{
+}
+
+.logo{
+	display: inline;
+	margin-left: 4px;
+}
+
+.image-name{
+	display: inline;
+}
+
+.image-name h1{
+	font-size: 18px;
+	line-height: 0;
+	font-weight: 400;
+	display: inline;
+	padding-left: 10px;
+}
+
+
+.actions{
+	display: inline;
+	float: right;
+	margin: -6px 0 0 5px;
+}
+
+.comment{
+	margin: 30px 0 40px 0;
+	padding-right: 5px;
+}
+
+.indicator{
+	background: #6E778B;
+	border-radius: 100px;
+	width: 30px;
+	height: 30px;
+	padding-top: 7px;
+	text-align: center;
+	color: #fff;
+	font-weight: 700;
+	font-size: 12px;
+	display: inline-block;
+}
+
+.commenter{
+	display: inline;
+	font-weight: 700;
+	margin-left: 5px;
+}
+
+.replier{
+	font-weight: 700;
+	margin-left: 38px;
+	margin-top: 15px;
+}
+
+.mark-resolved{
+	display: inline;
+	float: right;
+	font-size: 12px;
+	color: #8D8D8D;
+}
+
+
+.copy{
+	margin-left: 38px;
+	font-size: 14px;
+	color: #515151;
+}
+
+
+.reply{
+	margin-left: 38px;
+	margin-top: 10px;
+}
+
+.form-control {
+	border: 2px solid #E6E9EE;
+}
+
+.unselected{
+	opacity: .4;
+}
+
+.header{
+	height: 40px;
+	background: #fff;
+}
+
+.main-logo{
+	display: inline;
+}
+
+.logo-main{
+	padding: 10px 0 0 15px;
+}
+
+.main-actions{
+	display: inline;
+	float: right;
+	margin-right: 15px;
+}
+
+.main-btn{
+	background: #2FD475;
+	border: none;
+	padding: 7px 20px;
+	margin-top: 4px;
+	margin-right: 8px;
+	font-size: 12px;
+	font-weight: 700px;
+}
+
+.main-btn a{
+	color: #fff;
+}
+
+.main-btn a:hover, a:focus{
+	text-decoration: none;
+}
+
+.thumb{
+	background: #fff;
+	text-align: center;
+	border-radius: 6px;
+	border-bottom: 1px solid #E2E2E2;
+}
+
+.thumb-name{
+	font-size: 16px;
+	padding-top: 20px;
+	padding-bottom: 2px;
+}
+
+.thumb-meta{
+	font-size: 12px;
+	color: #B2B2B2;
+	padding-bottom: 25px;
+}
