@@ -155,6 +155,7 @@ p{
 	margin-right: 15px;
 }
 
+
 .main-btn{
 	background: #2FD475;
 	border: none;
@@ -163,6 +164,11 @@ p{
 	margin-right: 8px;
 	font-size: 12px;
 	font-weight: 700px;
+}
+
+.thumb a, a:hover, a:focus, a:visited  {
+	color: inherit;
+	text-decoration: none;
 }
 
 .main-btn a{
@@ -190,4 +196,53 @@ p{
 	font-size: 12px;
 	color: #B2B2B2;
 	padding-bottom: 25px;
+}
+
+
+
+/* Animation */
+.fadeIn{
+	animation-name: fadeIn;
+	-webkit-animation-name: fadeIn;	
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+	animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;
+	visibility: visible !important;	
+ }
+ 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeInRight{
+	animation-name: fadeInRight;
+	-webkit-animation-name: fadeInRight;	
+	animation-duration: .3s;	
+	-webkit-animation-duration: .3s;
+	animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;
+	visibility: visible !important;	
+ }
+ 
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(500px);
+    -ms-transform: translateX(500px);
+    transform: translateX(500px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
 }
